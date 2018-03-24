@@ -1,0 +1,259 @@
+fileFormatVersion: 2
+guid: 5ea291a68826f9c458a2956cbad576ce
+timeCreated: 1509110288
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Bone.004
+    100002: Bone.004_end
+    100004: Bone.005
+    100006: Bone.007
+    100008: foot.B
+    100010: foot.B_end
+    100012: foot.L
+    100014: foot.L_end
+    100016: foot.R
+    100018: foot.R_end
+    100020: head
+    100022: leg.down.B
+    100024: leg.down.B_end
+    100026: leg.down.R
+    100028: leg.down.R_end
+    100030: leg.up.L
+    100032: //RootNode
+    100034: "\u5E73\u9762"
+    100036: "\u5E73\u9762.001"
+    100038: "\u5E73\u9762.002"
+    100040: "\u7403\u4F53"
+    100042: "\u9AA8\u67B6"
+    400000: Bone.004
+    400002: Bone.004_end
+    400004: Bone.005
+    400006: Bone.007
+    400008: foot.B
+    400010: foot.B_end
+    400012: foot.L
+    400014: foot.L_end
+    400016: foot.R
+    400018: foot.R_end
+    400020: head
+    400022: leg.down.B
+    400024: leg.down.B_end
+    400026: leg.down.R
+    400028: leg.down.R_end
+    400030: leg.up.L
+    400032: //RootNode
+    400034: "\u5E73\u9762"
+    400036: "\u5E73\u9762.001"
+    400038: "\u5E73\u9762.002"
+    400040: "\u7403\u4F53"
+    400042: "\u9AA8\u67B6"
+    2300000: "\u5E73\u9762"
+    2300002: "\u5E73\u9762.001"
+    2300004: "\u5E73\u9762.002"
+    3300000: "\u5E73\u9762"
+    3300002: "\u5E73\u9762.001"
+    3300004: "\u5E73\u9762.002"
+    4300000: "\u7403\u4F53"
+    4300002: "\u5E73\u9762.002"
+    4300004: "\u5E73\u9762.001"
+    4300006: "\u5E73\u9762"
+    7400000: monsterRoling
+    7400002: mosterrun
+    7400004: monsterIdle
+    7400006: monsteRun
+    9500000: //RootNode
+    13700000: "\u7403\u4F53"
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 026dd7f45bc11ac48b4bba921840635c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: body
+    second: {fileID: 2100000, guid: 869bfd4391c544c46a10b90a33b0f1af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: eyeb
+    second: {fileID: 2100000, guid: f059f3572b19b294b9b788e21b00c321, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: eyew
+    second: {fileID: 2100000, guid: 3522a8f93f416f941aee25d987b58f19, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: light
+    second: {fileID: 2100000, guid: 7907be3d35dfc1148b61575644f72c93, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: light.001
+    second: {fileID: 2100000, guid: 639b9733c2557344082656bfbf7ee5ae, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: monsterRoling
+      takeName: "\u9AA8\u67B6|\u9AA8\u67B6Action"
+      firstFrame: 0
+      lastFrame: 75
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: monsterIdle
+      takeName: "\u9AA8\u67B6|\u9AA8\u67B6Action"
+      firstFrame: 89
+      lastFrame: 110
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: monsteRun
+      takeName: "\u9AA8\u67B6|\u9AA8\u67B6Action"
+      firstFrame: 111
+      lastFrame: 129
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
